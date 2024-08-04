@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Font for general body text */
+}
+
+/* Hero Sections and Footer */
+.hero, footer {
+    display: flex;
+    background-color: black; /* Background color for hero sections and footer */
+    color: white; /* Text color */
+    padding: 0 20px; /* Padding for alignment */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Padding for spacing */
+    background-color: #1F2937; /* Background color */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8; /* Text color for header logo */
+}
+
+header a {
+    color: #e5e7eb; /* Text color for header links */
+    text-decoration: none;
+    font-size: 18px; /* Font size for header links */
+    padding: 5px 10px; /* Padding for spacing */
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation List Styles */
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 16px; /* Space between items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Hero Section Specific Styles */
+#section1 {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Center-align items vertically */
+    justify-content: space-between; /* Space out items with space between them */
+    padding: 20px; /* Padding for spacing */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+}
+
+.text-content {
+    max-width: 50%; /* Limit width of text content */
+}
+
+.text-content h2 {
+    font-size: 48px;
+    font-weight: 700; /* Extra bold text */
+    color: #F9FAF8; /* Text color */
+    margin: 0; /* Remove default margin */
+}
+
+.herosubtext {
+    font-size: 18px;
+    color: #e5e7eb; /* Color for hero secondary text */
+    margin: 10px 0 20px; /* Top and bottom margin */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3882F6; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Spacing from other elements */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Section Styles */
+#section2 {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding for spacing */
+    background-color: black;
+}
+
+#section2 .image-item {
+    flex: 1 1 calc(25% - 20px); /* Four columns with spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+    text-align: center; /* Center-align text below images */
+}
+
+#section2 img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    display: block; /* Ensure images don’t have extra space below */
+    margin: 0 auto; /* Center-align images */
+}
+
+#section2 p {
+    font-size: 16px; /* Font size for subtext */
+    color: white; /* Color for subtext */
+    margin-top: 10px; /* Margin above subtext */
+}
+
+#section3, #section4 {
+    padding: 20px; /* Padding for spacing */
+}
+
+#section4 {
+    background-color: white; /* Background color for the whole section */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center align the blue box horizontally */
+    padding: 20px; /* Padding around the blue box */
+}
+
+#section4 .blue-box {
+    background-color: #3882F6; /* Blue background color for the inner box */
+    color: white; /* Text color inside the blue box */
+    display: flex; /* Enable flexbox layout for the blue box */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items horizontally */
+    padding: 20px; /* Padding inside the blue box */
+    border-radius: 10px; /* Rounded corners for the blue box */
+    width: 100%; /* Full width of the section */
+    max-width: 900px; /* Maximum width of the blue box */
+}
+
+#section4 .blue-box h3,
+#section4 .blue-box p {
+    margin: 0; /* Remove default margin */
+}
+
+#section4 .cta-button {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between text and button */
+}
+
+#section4 button {
+    background-color: #3882F6; /* Darker blue for the button background */
+    color: white; /* Button text color */
+    border: 2px solid ; /* Blue border for the button */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Button padding */
+    margin: 0; /* Remove default margin */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#section4 button:hover {
+    background-color: #003d7a; /* Even darker blue on hover */
+}
+
+/* Footer Styles */
+footer {
+    justify-content: center; /* Center-align footer content */
+    padding: 10px; /* Padding for spacing */
+    font-size: small;
+    color: #F9FAF8; /* Text color */
+}
